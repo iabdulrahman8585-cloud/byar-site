@@ -11,13 +11,13 @@ export default function Home() {
         background: "#ffffff",
         boxShadow: "0 2px 10px rgba(0,0,0,0.05)"
       }}>
-        <img src="/IMG_1766.jpeg" style={{ height: "50px" }} />
+        <img src="./IMG_1766.jpeg" style={{ height: "50px" }} />
         <div>
-          <a style={{ margin: "0 12px", fontWeight: "bold" }}>الرئيسية</a>
-          <a style={{ margin: "0 12px" }}>من نحن</a>
-          <a style={{ margin: "0 12px" }}>خدماتنا</a>
-          <a style={{ margin: "0 12px" }}>مشاريعنا</a>
-          <a style={{ margin: "0 12px" }}>تواصل</a>
+          <a href="#" style={{ margin: "0 12px" }}>الرئيسية</a>
+          <a href="#" style={{ margin: "0 12px" }}>من نحن</a>
+          <a href="#" style={{ margin: "0 12px" }}>خدماتنا</a>
+          <a href="#" style={{ margin: "0 12px" }}>مشاريعنا</a>
+          <a href="#" style={{ margin: "0 12px" }}>تواصل</a>
         </div>
       </section>
 
@@ -25,7 +25,7 @@ export default function Home() {
       <section style={{
         position: "relative",
         height: "450px",
-        backgroundImage: "url('/IMG_1783.jpeg')",
+        backgroundImage: "url('./IMG_1783.jpeg')",
         backgroundSize: "cover",
         backgroundPosition: "center"
       }}>
@@ -97,7 +97,7 @@ export default function Home() {
         <h2>مشاريعنا</h2>
 
         <div style={{ marginTop: "30px" }}>
-          <img src="/IMG_1765.jpeg" style={{ height: "70px", marginBottom: "15px" }} />
+          <img src="./IMG_1765.jpeg" style={{ height: "70px", marginBottom: "15px" }} />
           <h3>مشروع مثوى</h3>
           <p>أحد مشاريع ديار العقارية المتميزة</p>
 
